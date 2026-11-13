@@ -1,0 +1,16 @@
+# Original dependency versions were not supplied, except NumPy.
+numpy==1.26.4
+pandas
+scipy
+scikit-learn
+scikit-dimension
+statsmodels
+matplotlib
+seaborn
+Pillow
+openpyxl
+pyreadstat
+spacy
+fasttext-wheel
+torch
+transformers
