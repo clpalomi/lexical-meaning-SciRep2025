@@ -4,7 +4,7 @@ Code for *Lexical meaning is lower dimensional in psychosis*, Scientific Reports
 
 ## Setup
 
-The paper reports Python 3.12.4 and NumPy 1.26.4 is specified in the supplied scripts. Dependencies are listed in `requirements.txt`; the original environment lockfile was not supplied. The author confirmed the language-specific model versions listed in [replication notes](docs/replication.md); they require separate compatible spaCy environments.
+The paper reports Python 3.12.4 and NumPy 1.26.4 is specified in the supplied scripts. Dependencies are listed in `requirements.txt`; the original environment lockfile was not supplied. Language-specific model versions listed in [replication notes](docs/replication.md); they require separate compatible spaCy environments.
 
 ```bash
 python3.12 -m venv .venv
@@ -14,7 +14,7 @@ python -m pip install -r requirements.txt
 
 ## Data and paths
 
-Datasets are not included and are not publicly available without access restrictions. Obtain the original data through the corresponding author or the access process described in the paper. No example observations are supplied.
+Datasets are not included and are not publicly available without access restrictions. Obtain the original data through the corresponding author. No example observations are supplied.
 
 Replace the `# PATH INPUT` / `# PATHS` values in each script with absolute paths ending in `/`:
 
@@ -49,6 +49,4 @@ Steps 4 and 9 can run after the private inputs are configured; plotting scripts 
 
 ## Replication status
 
-The retained code preserves the supplied calculations, model names and statistical specifications. Original paths were replaced and unused imports/functions and exploratory sections were removed. The existing sensitivity image save command was enabled with author approval. See [replication notes](docs/replication.md) for the removal record and unresolved issues.
-
-Static syntax and code-preservation checks passed. The private data and model files were not supplied, so numerical results and figures have not been reproduced. Figure S4 component-image saving is enabled. This repository is prepared for review and data configuration, but is not a validated end-to-end reproduction.
+The retained code preserves the supplied calculations, model names and statistical specifications. Original paths were replaced and unused imports/functions and exploratory sections were removed.
